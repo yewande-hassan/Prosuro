@@ -55,11 +55,13 @@ export default function Home() {
         <table className='container'>
           <thead>
            
-            <tr className={`d-flex flex-row justify-content-between my-2 ${styles.row}`}>
-              <th className={styles.th}scope="col">Date</th>
+            <tr style={{
+                  display: "flex", flexDirection: "space-between"
+                }}className={`my-2 ${styles.row}`}>
+              <th className={`${styles.tf}`}scope="col">Date</th>
               <th className={styles.th} scope="col">Reference</th>
               <th className={styles.th} scope="col">Product</th>
-              <th className={`${styles.th}`} scope="col">Client</th>
+              <th className={`${styles.tw} ${styles.th}`} scope="col">Client</th>
               <th className={styles.th} scope="col">Premuim</th>
               <th></th>
             </tr>
@@ -84,7 +86,7 @@ export default function Home() {
                   </td>
                 <td style={{
                   display: "flex", flexDirection: "row"
-                }}>
+                }} className={styles.tm}>
                   <div style={{
                   display: "flex", flexDirection: "column"
                 }}>
