@@ -14,6 +14,9 @@
    line-height: 20px;
    color: #5F6B7A;
    }
+   .logotext{
+       margin-left: 10px;
+   }
    .person{
        border-radius: 50%;
        margin-left: 10px;
@@ -30,18 +33,19 @@
    .head{
    font-family: Google Sans;
     font-style: normal;
-       font-weight: 500;
-       font-size: 12px;
-       line-height: 15px;
-       text-transform: uppercase;    
-       color: #5F6B7A;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;    
+    color: #5F6B7A;
    }
-   .table{
-       text-align: left;
-       border-collapse: collapse;
-       width: 100%;
+   .tablecontainer{
+       width:100vw;
    }
-   .td{
+   .tables{
+    padding-bottom: 30px;
+   }
+   .bodycol{
    font-family: Google Sans;
    font-style: normal;
    font-weight: 500;
@@ -51,8 +55,7 @@
   
    
    }
-   .th{
-margin: 0 100px;
+   .headcol{
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
@@ -60,39 +63,24 @@ line-height: 15px;
 text-transform: uppercase;
 color: #5F6B7A;
    }
-   .tdetails{
-   font-style: normal;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 15px;
-   color: #5F6B7A;
-   }
+
    .row{
    padding: 10px 0;
    border-bottom: 1px solid #F5F8FA;
    display: flex;
    flex-direction: row;
    }
-   .tm{
-    width:20%;
-   }
-   .tf{
-       width:10%;
-       font-style: normal;
+
+   .bodyrow{
+      
+font-style: normal;
 font-weight: 500;
 font-size: 12px;
 line-height: 15px;
-text-transform: uppercase;
 color: #5F6B7A;
        
    }
-   .tw{
-  
-        width:30%;
-      
-        text-align: center;
 
-   }
    .mobile{
        background: #E1E7EC;
        border: 0.3px solid #000000;
@@ -107,6 +95,7 @@ color: #5F6B7A;
    font-weight: normal;
    font-size: 12px;
    line-height: 15px;
+   padding: 10px 0;
    color: #8895A7;
    }
    .purchase{
@@ -117,7 +106,7 @@ color: #5F6B7A;
    line-height: 31px;
    color: #000000;
    }
-   .div{
+   .searchinput{
        position: relative;
    }
    .search{
@@ -129,16 +118,17 @@ color: #5F6B7A;
    }
    .input{
        
-       border: 0.5px solid #AAAAAA;
-       box-sizing: border-box;
-       border-radius: 6px;
-       padding: 10px 40px;
-       font-family: Google Sans;
+    border: 0.5px solid #AAAAAA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 10px 60px;
+    font-family: Google Sans;
    font-style: normal;
    font-weight: 500;
    font-size: 14px;
    line-height: 18px;
    color: #8895A7;
+  
        
        }
        .select{
@@ -165,4 +155,8 @@ color: #5F6B7A;
                top:20px;
                left:5px;
               
+       }
+       .rows{
+        border: 1px solid #F5F8FA;
+        padding:1rem 0;
        }
