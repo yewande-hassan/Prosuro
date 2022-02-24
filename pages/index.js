@@ -59,12 +59,10 @@ export default function Home() {
             </tr>
           </thead>
           <tbody className={styles.rows}>
-
-
             {data.map((datas, index) => {
-
-              return (
-                <tr className={styles.rows}>
+           
+              return(
+               <tr key={datas.index}className={styles.bodyrows}>
                   <td className={styles.bodycol}>{datas["date"]}</td>
                   <td className={styles.bodycol}>{datas["reference"]}</td>
                   <td className={` d-flex flex-row`}>
@@ -91,9 +89,9 @@ export default function Home() {
                     </div>
                   </td>
                 </tr>
+             
+
               )
-
-
             })}
 
 
