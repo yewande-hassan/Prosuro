@@ -71,15 +71,15 @@ export default function Home() {
                 <td className={styles.td}>{datas["date"]}</td>
                 <td className={styles.td}>{datas["reference"]}</td>
                 <td style={{
-                  display: "flex", flexDirection: "row"
-                }}>
-                  <div>
+                  display: "flex", flexDirection: "space-between"
+                }} className={styles.tm}>
+                  <div className={styles.mobilewrap}>
                   <Mobile className={`${styles.mobile}`} src={Mobile} height={20} width={30} />
                   </div>
                   <div style={{
-                  display: "flex", flexDirection: "column"
+                  display: "flex", flexDirection: "column",paddingLeft:"20px"
                 }}>
-                  <span className={styles.td}>{datas["product1"]}</span><span className={styles.tdetails}>{datas["product2"]}</span>
+                  <div className={styles.td}>{datas["product1"]}</div><div className={styles.tdetails}>{datas["product2"]}</div>
                   </div>
                   </td>
                 <td style={{
@@ -88,7 +88,7 @@ export default function Home() {
                   <div style={{
                   display: "flex", flexDirection: "column"
                 }}>
-                  <span className={styles.td}>{datas["client1"]}</span><span className={styles.tdetails}>{datas["email"]}</span>
+                  <div className={styles.td}>{datas["client1"]}</div><div className={styles.tdetails}>{datas["email"]}</div>
                   </div>
                   </td>
                 <td className={styles.td}>

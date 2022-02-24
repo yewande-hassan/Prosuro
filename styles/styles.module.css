@@ -48,12 +48,11 @@
    font-size: 14px;
    line-height: 18px;
    color: #212934;
-  margin-left: 50px;
+  
    
    }
    .th{
 margin: 0 100px;
-font-family: Google Sans;
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
@@ -62,10 +61,9 @@ text-transform: uppercase;
 color: #5F6B7A;
    }
    .tdetails{
-   font-family: Google Sans;
    font-style: normal;
    font-weight: normal;
-   font-size: 12px;
+   font-size: 13px;
    line-height: 15px;
    color: #5F6B7A;
    }
@@ -74,6 +72,9 @@ color: #5F6B7A;
    border-bottom: 1px solid #F5F8FA;
    display: flex;
    flex-direction: row;
+   }
+   .tm{
+    width:20%;
    }
    .mobile{
        background: #E1E7EC;
