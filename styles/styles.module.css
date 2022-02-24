@@ -1,0 +1,150 @@
+.active{
+    color: #00B058;
+   font-family: Google Sans;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   }
+   .navlink{
+   font-family: Google Sans;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #5F6B7A;
+   }
+   .person{
+       border-radius: 50%;
+       margin-left: 10px;
+   }
+   .bell{
+       margin: auto;
+   
+   }
+   .wrap{
+       border-bottom: 0.5px solid #DCDCDC;
+       background: #FFFFFF;
+       
+   }
+   .head{
+   font-family: Google Sans;
+    font-style: normal;
+       font-weight: 500;
+       font-size: 12px;
+       line-height: 15px;
+       text-transform: uppercase;    
+       color: #5F6B7A;
+   }
+   .table{
+       text-align: left;
+       border-collapse: collapse;
+       width: 100%;
+   }
+   .td{
+   font-family: Google Sans;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #212934;
+  margin-left: 50px;
+   
+   }
+   .th{
+margin: 0 100px;
+font-family: Google Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #5F6B7A;
+   }
+   .tdetails{
+   font-family: Google Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 15px;
+   color: #5F6B7A;
+   }
+   .row{
+   padding: 10px 0;
+   border-bottom: 1px solid #F5F8FA;
+   display: flex;
+   flex-direction: row;
+   }
+   .mobile{
+       background: #E1E7EC;
+       border: 0.3px solid #000000;
+       box-sizing: border-box;
+       border-radius: 40%;
+       margin-right: 10px;
+       
+   }
+   .home{
+   font-family: Google Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 15px;
+   color: #8895A7;
+   }
+   .purchase{
+       font-family: Google Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 31px;
+   color: #000000;
+   }
+   .div{
+       position: relative;
+   }
+   .search{
+    
+           margin: 20px;
+           position:absolute;
+           top: 10px;
+           left:3px;
+   }
+   .input{
+       
+       border: 0.5px solid #AAAAAA;
+       box-sizing: border-box;
+       border-radius: 6px;
+       padding: 10px 40px;
+       font-family: Google Sans;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #8895A7;
+       
+       }
+       .select{
+   font-family: Google Sans;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #8895A7;
+   padding: 15px 20px;
+       }
+       .selectwrap{
+           position: relative;
+           margin-right: 15px;
+          
+       }
+       .arrow{
+           position: absolute;
+           top:18px;
+           right:30px;
+       }
+       .filter{
+               position: absolute;
+               top:20px;
+               left:5px;
+              
+       }
