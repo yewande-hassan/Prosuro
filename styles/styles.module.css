@@ -76,6 +76,23 @@ color: #5F6B7A;
    .tm{
     width:20%;
    }
+   .tf{
+       width:10%;
+       font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #5F6B7A;
+       
+   }
+   .tw{
+  
+        width:30%;
+      
+        text-align: center;
+
+   }
    .mobile{
        background: #E1E7EC;
        border: 0.3px solid #000000;
